@@ -1,0 +1,23 @@
+{
+  "name": "sample-chat",
+  "version": "0.0.1",
+  "description": "chat app for larning",
+  "main": "index.js",
+  "scripts": {
+		"start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:karuru6225/nodejs-sample-chat.git"
+  },
+  "author": "karuru6225",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/karuru6225/nodejs-sample-chat/issues"
+  },
+  "homepage": "https://github.com/karuru6225/nodejs-sample-chat",
+	"dependencies": {
+		"socket.io":"*"
+	}
+}
